@@ -1,0 +1,6 @@
+[window]
+startup_mode = "Windowed"
+
+[font]
+normal = { family = "RobotoMono Nerd Font", style = "Medium" }
+size = 14.00
