@@ -4,4 +4,5 @@ My simple project with simple dotfiles:
 - Vim configuration file
 - Tmux configuration file with theme customization
 - Alacritty configuration
+- A shell script to randomize wallpapers to use in cronjobs or systemd timers
 
