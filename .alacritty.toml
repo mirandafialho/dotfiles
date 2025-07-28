@@ -1,5 +1,8 @@
 [window]
 startup_mode = "Windowed"
+opacity = 0.8
+title = "Terminal"
+dynamic_title = false
 
 [font]
 normal = { family = "RobotoMono Nerd Font", style = "Medium" }
