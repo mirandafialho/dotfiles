@@ -22,7 +22,7 @@ Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 Plugin 'itchyny/lightline.vim'
 
 " Theme
-Plugin 'ayu-theme/ayu-vim'
+Plugin 'catppuccin/vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,9 +48,9 @@ set number
 set laststatus=2
 
 " Theme configuration
+syntax on
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
+colorscheme catppuccin_mocha
 
 " Auto complete configuration
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
