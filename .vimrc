@@ -22,7 +22,7 @@ Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 Plugin 'itchyny/lightline.vim'
 
 " Theme
-Plugin 'catppuccin/vim'
+Plugin 'dracula/vim', { 'name': 'dracula' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -50,7 +50,7 @@ set laststatus=2
 " Theme configuration
 syntax on
 set termguicolors
-colorscheme catppuccin_mocha
+colorscheme dracula
 
 " Auto complete configuration
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
